@@ -1,0 +1,46 @@
+#The grid file
+gridname   	    ./input/grid-3dRSBI.txt
+
+#The initial file
+initialization	./input/input-3dRSBI.txt
+
+#chemical reaction kinetic model
+reaction-model	./input/H2_JA919.txt
+
+#Thermodata file
+Thermofile	    ./input/thermo.dat
+
+#The final time
+Final-Time  	0.85e-4
+
+#The cfl number
+cfl		        0.00
+
+#The fixed  time step (set cfl=0)
+dt		        3e-8
+
+#The number of output files (except file_0)
+count      		1
+
+#The differential format to be used  
+difference  	MUSCL_2
+
+#The time-advance format to be used
+time-adv   	    EE
+
+#The reaction calculation format to be used
+reaction		Trapezoid-Adaptive
+
+#MPI x block number
+m_block_x     4
+#MPI y block number
+m_block_y     2
+#MPI z block number
+m_block_z     1
+#OPENMP thread number
+num_thread    1
+
+#DLB step
+DLB_step      5
+#DLB tolerance
+DLB_tol       0.001

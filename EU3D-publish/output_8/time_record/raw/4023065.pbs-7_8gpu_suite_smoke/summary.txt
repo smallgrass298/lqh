@@ -1,0 +1,39 @@
+=== EU3D-CUDA intra-GPU ablation ===
+grid=281x141x32  steps=100  gpus=8  ranks=8  mapping=one_gpu_per_rank
+
+-- loop time (s) --
+mode     n   mean        median      stdev     min         max         vs off                    
+off      1   5.177       5.177       0.000     5.177       5.177                                 
+all      1   5.113       5.113       0.000     5.113       5.113       faster 0.06 s (1.24%)     
+dynamic_all1   5.023       5.023       0.000     5.023       5.023       faster 0.15 s (2.97%)     
+dynamic_force1   4.904       4.904       0.000     4.904       4.904       faster 0.27 s (5.28%)     
+
+-- DLB phase timers (max-rank cumulative s; phases overlap, do not sum) --
+mode     plan        pack        forward     remote      backward    unpack      
+all      0.107       0.000       0.000       0.000       0.000       0.000       
+dynamic_all0.106       0.000       0.000       0.000       0.000       0.000       
+dynamic_force0.109       0.267       0.346       0.260       0.257       0.000       
+
+-- traffic --
+mode     fwd GiB    bwd GiB    fwd msgs   mean msg B   eff MB/s   
+all      0.0000     0.0000     0          0.0          0.000      
+dynamic_all0.0000     0.0000     0          0.0          0.000      
+dynamic_force0.0001     0.0001     140        1032.0       0.418      
+
+-- planner / scheduler counters --
+mode     replans   skipped   active    tasks       gate_rej    budget   buckets   bypass  
+all      5         5         0         0           1290496     0        5         5       
+dynamic_all5         5         0         0           1290496     0        5         5       
+dynamic_force5         4         20        43          0           0        5         0       
+
+-- switch configuration reported by the binary --
+all      schedule=overlap task_order=nchem reaction_sched=sorted cost_gate=on min_task_weight=10 max_tasks=0 probe=off
+dynamic_allschedule=overlap task_order=nchem reaction_sched=dynamic cost_gate=on min_task_weight=10 max_tasks=0 probe=off
+dynamic_forceschedule=serial task_order=address reaction_sched=dynamic cost_gate=off min_task_weight=1 max_tasks=0 probe=off
+
+-- output comparison --
+all_modes_byte_identical=yes
+
+Reminder: quote clean (probe-off) runs for performance and keep the
+instrumented runs for mechanism.  Phase timers are per-rank maxima and
+overlap, so they must not be added into a wall-clock budget.

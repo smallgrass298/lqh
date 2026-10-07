@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=1:mpiprocs=1:mem=8gb:ngpus=1:gpu_type=L40S
+#PBS -l walltime=02:30:00
+#PBS -N eu3d_qsuite_1g
+#PBS -j oe
+set -euo pipefail
+export EU3D_GPUS=1 EU3D_RANKS=1 EU3D_PROBE=0
+# Each allocation validates itself before running full performance repeats.
+export EU3D_STEPS=100 EU3D_REPEATS=1
+export EU3D_CTRL_FILE=ctrl-queue-nk32-100-r1.txt
+export EU3D_MODES="ref sorted dynamic sorted_force dynamic_force"
+export EU3D_TAG=1gpu_suite_smoke
+export EU3D_QUEUE_SANITIZE=1
+bash "$PBS_O_WORKDIR/run_intragpu_common.sh"
+export EU3D_STEPS=2834 EU3D_REPEATS=3
+export EU3D_CTRL_FILE=ctrl-onetoone-nk32-full-r1.txt
+export EU3D_MODES="sorted dynamic"
+export EU3D_TAG=1gpu_suite_full
+export EU3D_QUEUE_SANITIZE=0
+bash "$PBS_O_WORKDIR/run_intragpu_common.sh"
+python3 "$PBS_O_WORKDIR/summarize_queue_suite.py" \
+    "$PBS_O_WORKDIR/intragpu_results/${PBS_JOBID}_${EU3D_TAG}"

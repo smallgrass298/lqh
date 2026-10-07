@@ -1,0 +1,523 @@
+{
+  "1": [
+    {
+      "rep": 1,
+      "loop": 809.734,
+      "ranks": {
+        "0": {
+          "launches": 2754,
+          "evaluations": 142,
+          "bypasses": 4,
+          "blocks": 426,
+          "chunk": 32
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "loop": 809.155,
+      "ranks": {
+        "0": {
+          "launches": 2754,
+          "evaluations": 142,
+          "bypasses": 4,
+          "blocks": 426,
+          "chunk": 32
+        }
+      }
+    },
+    {
+      "rep": 3,
+      "loop": 810.203,
+      "ranks": {
+        "0": {
+          "launches": 2754,
+          "evaluations": 142,
+          "bypasses": 4,
+          "blocks": 426,
+          "chunk": 32
+        }
+      }
+    }
+  ],
+  "2": [
+    {
+      "rep": 1,
+      "loop": 536.316,
+      "ranks": {
+        "1": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 1720,
+          "evaluations": 142,
+          "bypasses": 56,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 8.406965,
+        "pack": 83.150452,
+        "forward": 83.177978,
+        "remote": 99.96673,
+        "backward": 99.983036,
+        "unpack": 0.006443
+      },
+      "traffic": {
+        "forward_bytes": 308134848,
+        "backward_bytes": 278788672,
+        "forward_messages": 2114,
+        "backward_messages": 2114
+      }
+    },
+    {
+      "rep": 2,
+      "loop": 536.343,
+      "ranks": {
+        "1": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 1720,
+          "evaluations": 142,
+          "bypasses": 56,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 8.413114,
+        "pack": 83.150158,
+        "forward": 83.175431,
+        "remote": 100.011889,
+        "backward": 100.027226,
+        "unpack": 0.006195
+      },
+      "traffic": {
+        "forward_bytes": 308134848,
+        "backward_bytes": 278788672,
+        "forward_messages": 2114,
+        "backward_messages": 2114
+      }
+    },
+    {
+      "rep": 3,
+      "loop": 536.624,
+      "ranks": {
+        "1": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 1720,
+          "evaluations": 142,
+          "bypasses": 56,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 8.408961,
+        "pack": 83.150959,
+        "forward": 83.180549,
+        "remote": 99.993848,
+        "backward": 100.009114,
+        "unpack": 0.006354
+      },
+      "traffic": {
+        "forward_bytes": 308134848,
+        "backward_bytes": 278788672,
+        "forward_messages": 2114,
+        "backward_messages": 2114
+      }
+    }
+  ],
+  "4": [
+    {
+      "rep": 1,
+      "loop": 381.171,
+      "ranks": {
+        "2": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "3": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 1720,
+          "evaluations": 142,
+          "bypasses": 56,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "1": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 4.547612,
+        "pack": 44.331066,
+        "forward": 59.150456,
+        "remote": 110.556561,
+        "backward": 91.042606,
+        "unpack": 0.006098
+      },
+      "traffic": {
+        "forward_bytes": 578766720,
+        "backward_bytes": 523646080,
+        "forward_messages": 6602,
+        "backward_messages": 6602
+      }
+    },
+    {
+      "rep": 2,
+      "loop": 382.648,
+      "ranks": {
+        "2": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "3": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "1": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 1720,
+          "evaluations": 142,
+          "bypasses": 56,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 4.552142,
+        "pack": 44.32965,
+        "forward": 59.143957,
+        "remote": 110.486039,
+        "backward": 90.969297,
+        "unpack": 0.005616
+      },
+      "traffic": {
+        "forward_bytes": 578766720,
+        "backward_bytes": 523646080,
+        "forward_messages": 6602,
+        "backward_messages": 6602
+      }
+    },
+    {
+      "rep": 3,
+      "loop": 380.935,
+      "ranks": {
+        "2": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "3": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "1": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 1720,
+          "evaluations": 142,
+          "bypasses": 56,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 4.548751,
+        "pack": 44.33844,
+        "forward": 59.152376,
+        "remote": 110.494533,
+        "backward": 90.952732,
+        "unpack": 0.005522
+      },
+      "traffic": {
+        "forward_bytes": 578766720,
+        "backward_bytes": 523646080,
+        "forward_messages": 6602,
+        "backward_messages": 6602
+      }
+    }
+  ],
+  "8": [
+    {
+      "rep": 1,
+      "loop": 304.947,
+      "ranks": {
+        "6": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "5": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "7": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "3": {
+          "launches": 894,
+          "evaluations": 142,
+          "bypasses": 97,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "1": {
+          "launches": 1300,
+          "evaluations": 142,
+          "bypasses": 77,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "4": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "2": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 580,
+          "evaluations": 142,
+          "bypasses": 113,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 2.554663,
+        "pack": 18.899848,
+        "forward": 33.843723,
+        "remote": 99.422225,
+        "backward": 75.186639,
+        "unpack": 0.004704
+      },
+      "traffic": {
+        "forward_bytes": 565418784,
+        "backward_bytes": 511569376,
+        "forward_messages": 19144,
+        "backward_messages": 19144
+      }
+    },
+    {
+      "rep": 2,
+      "loop": 305.295,
+      "ranks": {
+        "7": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "3": {
+          "launches": 894,
+          "evaluations": 142,
+          "bypasses": 97,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "4": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "6": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "2": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "5": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "1": {
+          "launches": 1300,
+          "evaluations": 142,
+          "bypasses": 77,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 580,
+          "evaluations": 142,
+          "bypasses": 113,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 2.548365,
+        "pack": 18.900269,
+        "forward": 33.758393,
+        "remote": 99.207151,
+        "backward": 74.792245,
+        "unpack": 0.004695
+      },
+      "traffic": {
+        "forward_bytes": 565418784,
+        "backward_bytes": 511569376,
+        "forward_messages": 19144,
+        "backward_messages": 19144
+      }
+    },
+    {
+      "rep": 3,
+      "loop": 304.278,
+      "ranks": {
+        "5": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "7": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "3": {
+          "launches": 894,
+          "evaluations": 142,
+          "bypasses": 97,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "1": {
+          "launches": 1300,
+          "evaluations": 142,
+          "bypasses": 77,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "4": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "6": {
+          "launches": 0,
+          "evaluations": 142,
+          "bypasses": 142,
+          "blocks": 0,
+          "chunk": 32
+        },
+        "0": {
+          "launches": 580,
+          "evaluations": 142,
+          "bypasses": 113,
+          "blocks": 426,
+          "chunk": 32
+        },
+        "2": {
+          "launches": 1754,
+          "evaluations": 142,
+          "bypasses": 54,
+          "blocks": 426,
+          "chunk": 32
+        }
+      },
+      "phases": {
+        "plan": 2.559506,
+        "pack": 18.898272,
+        "forward": 33.554506,
+        "remote": 99.306526,
+        "backward": 75.145714,
+        "unpack": 0.004795
+      },
+      "traffic": {
+        "forward_bytes": 565418784,
+        "backward_bytes": 511569376,
+        "forward_messages": 19144,
+        "backward_messages": 19144
+      }
+    }
+  ]
+}

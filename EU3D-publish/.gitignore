@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.mplconfig/
+.venv/
+solver/obj/
+solver/obj_cpu/
+solver/EU3D_GPU
+solver/EU3D_CPU
+solver/test_kernel
+solver/test_dlb_schedule
+solver/test_warp_queue
+solver/output_*/
+solver/intragpu_results/
+solver/queue_submissions_*.txt
+results/generated/
+*.o
+*.swp
+
+# Keep archived output_*/time_record/raw logs under version control.
+
+# Large numerical fields are distributed separately from the code repository.
+/output_*/results/*.dat

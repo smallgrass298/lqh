@@ -1,0 +1,4 @@
+weight gate: tasks 28 -> 8 (rejected 238 light candidates)
+task budget: plan capped at 2 tasks, stopped_on_budget=1
+DLB scheduler OK: tasks=15 load-range=118 -> 62
+large-grid planner: cells=1267872 tasks=2874 load-range=516347 -> 28055 time=0.0100345 s

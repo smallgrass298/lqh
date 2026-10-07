@@ -1,0 +1,153 @@
+===== mode=sorted repeat=1 =====
+switches: DISABLE_DLB= CUDA_AWARE=1
+          SCHEDULE= TASK_ORDER=
+          REACTION_SCHED=sorted COST_GATE=
+          PROBE=
+Total process: 1
+Input ctrl file is:./input/ctrl-queue-nk32-100-r1.txt
+Final-Time	3e-06
+cfl	0
+dt	3e-08
+count	1
+gridname	./input/grid-3dRSBI-nk32.txt
+initialization	./input/input-3dRSBI.txt
+reaction-model	./input/H2_JA919.txt
+Thermofile	./input/thermo.dat
+reaction	Trapezoid-Adaptive
+difference	MUSCL_2
+time-adv	EE
+m_block_x	1
+m_block_y	1
+m_block_z	1
+num_thread	1
+DLB_step	5
+DLB_tol	0.001
+目录结构创建成功: ./output_1
+total_ni	281
+xa	0
+xb	0.17
+total_nj	141
+ya	0
+yb	0.08
+total_nk	32
+za	0
+zb	0.02
+bc	2
+NS	9
+NR	19
+P_pre	101325
+T_pre	1000
+M_wave	3
+NS	9
+NR	19
+P_pre	101325
+T_pre	1000
+M_wave	3
+0	0	0	0	1	2	0	0	3.76	
+0	0	0	0	1	2	0	0	3.76	
+GPU mapping: world_rank=0 local_rank=0 -> device=0/1 (NVIDIA L40S)
+GPU reaction DLB: single-rank bypass (step=0 tol=0.001); step sync: deferred
+GPU Iteration: 1  dt=3e-08  t=3e-08
+GPU Iteration: 2  dt=3e-08  t=6e-08
+GPU Iteration: 3  dt=3e-08  t=9e-08
+GPU Iteration: 4  dt=3e-08  t=1.2e-07
+GPU Iteration: 5  dt=3e-08  t=1.5e-07
+GPU Iteration: 6  dt=3e-08  t=1.8e-07
+GPU Iteration: 7  dt=3e-08  t=2.1e-07
+GPU Iteration: 8  dt=3e-08  t=2.4e-07
+GPU Iteration: 9  dt=3e-08  t=2.7e-07
+GPU Iteration: 10  dt=3e-08  t=3e-07
+GPU Iteration: 11  dt=3e-08  t=3.3e-07
+GPU Iteration: 12  dt=3e-08  t=3.6e-07
+GPU Iteration: 13  dt=3e-08  t=3.9e-07
+GPU Iteration: 14  dt=3e-08  t=4.2e-07
+GPU Iteration: 15  dt=3e-08  t=4.5e-07
+GPU Iteration: 16  dt=3e-08  t=4.8e-07
+GPU Iteration: 17  dt=3e-08  t=5.1e-07
+GPU Iteration: 18  dt=3e-08  t=5.4e-07
+GPU Iteration: 19  dt=3e-08  t=5.7e-07
+GPU Iteration: 20  dt=3e-08  t=6e-07
+GPU Iteration: 21  dt=3e-08  t=6.3e-07
+GPU Iteration: 22  dt=3e-08  t=6.6e-07
+GPU Iteration: 23  dt=3e-08  t=6.9e-07
+GPU Iteration: 24  dt=3e-08  t=7.2e-07
+GPU Iteration: 25  dt=3e-08  t=7.5e-07
+GPU Iteration: 26  dt=3e-08  t=7.8e-07
+GPU Iteration: 27  dt=3e-08  t=8.1e-07
+GPU Iteration: 28  dt=3e-08  t=8.4e-07
+GPU Iteration: 29  dt=3e-08  t=8.7e-07
+GPU Iteration: 30  dt=3e-08  t=9e-07
+GPU Iteration: 31  dt=3e-08  t=9.3e-07
+GPU Iteration: 32  dt=3e-08  t=9.6e-07
+GPU Iteration: 33  dt=3e-08  t=9.9e-07
+GPU Iteration: 34  dt=3e-08  t=1.02e-06
+GPU Iteration: 35  dt=3e-08  t=1.05e-06
+GPU Iteration: 36  dt=3e-08  t=1.08e-06
+GPU Iteration: 37  dt=3e-08  t=1.11e-06
+GPU Iteration: 38  dt=3e-08  t=1.14e-06
+GPU Iteration: 39  dt=3e-08  t=1.17e-06
+GPU Iteration: 40  dt=3e-08  t=1.2e-06
+GPU Iteration: 41  dt=3e-08  t=1.23e-06
+GPU Iteration: 42  dt=3e-08  t=1.26e-06
+GPU Iteration: 43  dt=3e-08  t=1.29e-06
+GPU Iteration: 44  dt=3e-08  t=1.32e-06
+GPU Iteration: 45  dt=3e-08  t=1.35e-06
+GPU Iteration: 46  dt=3e-08  t=1.38e-06
+GPU Iteration: 47  dt=3e-08  t=1.41e-06
+GPU Iteration: 48  dt=3e-08  t=1.44e-06
+GPU Iteration: 49  dt=3e-08  t=1.47e-06
+GPU Iteration: 50  dt=3e-08  t=1.5e-06
+GPU Iteration: 51  dt=3e-08  t=1.53e-06
+GPU Iteration: 52  dt=3e-08  t=1.56e-06
+GPU Iteration: 53  dt=3e-08  t=1.59e-06
+GPU Iteration: 54  dt=3e-08  t=1.62e-06
+GPU Iteration: 55  dt=3e-08  t=1.65e-06
+GPU Iteration: 56  dt=3e-08  t=1.68e-06
+GPU Iteration: 57  dt=3e-08  t=1.71e-06
+GPU Iteration: 58  dt=3e-08  t=1.74e-06
+GPU Iteration: 59  dt=3e-08  t=1.77e-06
+GPU Iteration: 60  dt=3e-08  t=1.8e-06
+GPU Iteration: 61  dt=3e-08  t=1.83e-06
+GPU Iteration: 62  dt=3e-08  t=1.86e-06
+GPU Iteration: 63  dt=3e-08  t=1.89e-06
+GPU Iteration: 64  dt=3e-08  t=1.92e-06
+GPU Iteration: 65  dt=3e-08  t=1.95e-06
+GPU Iteration: 66  dt=3e-08  t=1.98e-06
+GPU Iteration: 67  dt=3e-08  t=2.01e-06
+GPU Iteration: 68  dt=3e-08  t=2.04e-06
+GPU Iteration: 69  dt=3e-08  t=2.07e-06
+GPU Iteration: 70  dt=3e-08  t=2.1e-06
+GPU Iteration: 71  dt=3e-08  t=2.13e-06
+GPU Iteration: 72  dt=3e-08  t=2.16e-06
+GPU Iteration: 73  dt=3e-08  t=2.19e-06
+GPU Iteration: 74  dt=3e-08  t=2.22e-06
+GPU Iteration: 75  dt=3e-08  t=2.25e-06
+GPU Iteration: 76  dt=3e-08  t=2.28e-06
+GPU Iteration: 77  dt=3e-08  t=2.31e-06
+GPU Iteration: 78  dt=3e-08  t=2.34e-06
+GPU Iteration: 79  dt=3e-08  t=2.37e-06
+GPU Iteration: 80  dt=3e-08  t=2.4e-06
+GPU Iteration: 81  dt=3e-08  t=2.43e-06
+GPU Iteration: 82  dt=3e-08  t=2.46e-06
+GPU Iteration: 83  dt=3e-08  t=2.49e-06
+GPU Iteration: 84  dt=3e-08  t=2.52e-06
+GPU Iteration: 85  dt=3e-08  t=2.55e-06
+GPU Iteration: 86  dt=3e-08  t=2.58e-06
+GPU Iteration: 87  dt=3e-08  t=2.61e-06
+GPU Iteration: 88  dt=3e-08  t=2.64e-06
+GPU Iteration: 89  dt=3e-08  t=2.67e-06
+GPU Iteration: 90  dt=3e-08  t=2.7e-06
+GPU Iteration: 91  dt=3e-08  t=2.73e-06
+GPU Iteration: 92  dt=3e-08  t=2.76e-06
+GPU Iteration: 93  dt=3e-08  t=2.79e-06
+GPU Iteration: 94  dt=3e-08  t=2.82e-06
+GPU Iteration: 95  dt=3e-08  t=2.85e-06
+GPU Iteration: 96  dt=3e-08  t=2.88e-06
+GPU Iteration: 97  dt=3e-08  t=2.91e-06
+GPU Iteration: 98  dt=3e-08  t=2.94e-06
+GPU Iteration: 99  dt=3e-08  t=2.97e-06
+GPU Iteration: 100  dt=3e-08  t=3e-06
+GPU Loop time: 36.9728
+GPU reaction scheduler rank=0 mode=sorted dynamic_launches=0 bucket_evaluations=5 bucket_bypasses=4 worker_blocks=0 chunk=32
+Loop time: 37.2023
+Total Time: 55

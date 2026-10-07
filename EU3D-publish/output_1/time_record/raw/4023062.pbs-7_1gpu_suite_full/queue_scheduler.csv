@@ -1,0 +1,7 @@
+job,gpus,mode,repeat,rank,scheduler,dynamic_launches,bucket_evaluations,bucket_bypasses,worker_blocks,chunk
+4023062.pbs-7_1gpu_suite_full,1,sorted,1,0,sorted,0,142,4,0,32
+4023062.pbs-7_1gpu_suite_full,1,sorted,2,0,sorted,0,142,4,0,32
+4023062.pbs-7_1gpu_suite_full,1,sorted,3,0,sorted,0,142,4,0,32
+4023062.pbs-7_1gpu_suite_full,1,dynamic,1,0,dynamic,2754,142,4,426,32
+4023062.pbs-7_1gpu_suite_full,1,dynamic,2,0,dynamic,2754,142,4,426,32
+4023062.pbs-7_1gpu_suite_full,1,dynamic,3,0,dynamic,2754,142,4,426,32

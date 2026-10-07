@@ -1,0 +1,17 @@
+#Boundary Pressure (Pa)
+P_bound         	3e6
+
+#Boundary Temperature (K)
+T_bound		    2000.0
+
+#Pressure (Pa)
+P         	1e5
+
+#Temperature (K)
+T		    298.0
+
+#Number of species
+NS		    9
+
+#Number of reactions
+NR		    19

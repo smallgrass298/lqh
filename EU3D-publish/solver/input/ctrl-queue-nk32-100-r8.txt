@@ -1,0 +1,19 @@
+# 281x141x32, full 2834-step run, 8 GPUs / 8 MPI ranks.
+# Stage-2 best controls: replan every 20 steps, tolerate 1% residual imbalance.
+gridname       ./input/grid-3dRSBI-nk32.txt
+initialization ./input/input-3dRSBI.txt
+reaction-model ./input/H2_JA919.txt
+Thermofile     ./input/thermo.dat
+Final-Time     3e-6
+cfl            0.0
+dt             3e-8
+count          1
+difference     MUSCL_2
+time-adv       EE
+reaction       Trapezoid-Adaptive
+m_block_x      4
+m_block_y      2
+m_block_z      1
+num_thread     1
+DLB_step       20
+DLB_tol        0.01

@@ -1,0 +1,18 @@
+# 281x141x32, 100 steps, 2 GPUs / 2 MPI ranks.
+gridname       ./input/grid-3dRSBI-nk32.txt
+initialization ./input/input-3dRSBI.txt
+reaction-model ./input/H2_JA919.txt
+Thermofile     ./input/thermo.dat
+Final-Time     3e-6
+cfl            0.0
+dt             3e-8
+count          1
+difference     MUSCL_2
+time-adv       EE
+reaction       Trapezoid-Adaptive
+m_block_x      2
+m_block_y      1
+m_block_z      1
+num_thread     1
+DLB_step       5
+DLB_tol        0.001

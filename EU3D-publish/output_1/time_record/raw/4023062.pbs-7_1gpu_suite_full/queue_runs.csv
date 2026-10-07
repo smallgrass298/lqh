@@ -1,0 +1,7 @@
+job,gpus,mode,repeat,loop_s,plan_s,pack_s,forward_s,remote_s,backward_s,unpack_s,forward_bytes,backward_bytes,forward_messages,backward_messages,replans,skipped,active_steps,planned_tasks,gate_rejected,budget_stops
+4023062.pbs-7_1gpu_suite_full,1,sorted,1,953.627,,,,,,,,,,,,,,,,
+4023062.pbs-7_1gpu_suite_full,1,sorted,2,953.747,,,,,,,,,,,,,,,,
+4023062.pbs-7_1gpu_suite_full,1,sorted,3,953.618,,,,,,,,,,,,,,,,
+4023062.pbs-7_1gpu_suite_full,1,dynamic,1,809.734,,,,,,,,,,,,,,,,
+4023062.pbs-7_1gpu_suite_full,1,dynamic,2,809.155,,,,,,,,,,,,,,,,
+4023062.pbs-7_1gpu_suite_full,1,dynamic,3,810.203,,,,,,,,,,,,,,,,

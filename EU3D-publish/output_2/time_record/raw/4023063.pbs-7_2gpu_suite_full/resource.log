@@ -1,0 +1,15 @@
+job=4023063.pbs-7
+grid=281x141x32
+steps=2834
+mpi_ranks=2
+physical_gpus=2
+mapping=one_gpu_per_rank
+ctrl=./input/ctrl-onetoone-nk32-full-r2-step20-tol01.txt
+modes=all dynamic_all
+repeats=3
+probe=0
+host=cx3-20-6
+visible_gpus=2
+index, name, memory.total [MiB]
+0, NVIDIA L40S, 46068 MiB
+1, NVIDIA L40S, 46068 MiB

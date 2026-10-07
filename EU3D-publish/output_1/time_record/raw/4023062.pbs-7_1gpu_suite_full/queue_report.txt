@@ -1,0 +1,12 @@
+Warp queue suite — 281x141x32 / 2834 steps / 1 GPU per rank
+4023062.pbs-7_1gpu_suite_full: COMPLETE
+
+GPU mode             n mean(s)   stdev(s) reduction vs baseline  paired wins
+  1 sorted           3   953.664    0.072         0.0%  0/3
+  1 dynamic          3   809.697    0.525      15.096%  3/3
+
+INCOMPLETE rows are provisional; use only COMPLETE jobs for conclusions.
+Positive reduction means faster. Baseline: sorted (1 GPU), all (2/4/8 GPU).
+Phase timers are cumulative per-rank maxima and overlap: do not sum them.
+Scheduler counts are per rank; zero dynamic_launches means the path bypassed.
+No hardware occupancy, warp efficiency or SM utilisation was measured.

@@ -1,0 +1,1 @@
+PASS: complete, finite, byte-identical outputs

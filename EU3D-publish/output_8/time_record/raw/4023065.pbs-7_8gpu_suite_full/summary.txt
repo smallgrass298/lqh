@@ -1,0 +1,33 @@
+=== EU3D-CUDA intra-GPU ablation ===
+grid=281x141x32  steps=2834  gpus=8  ranks=8  mapping=one_gpu_per_rank
+
+-- loop time (s) --
+mode     n   mean        median      stdev     min         max         vs all                    
+all      3   424.862     424.910     0.186     424.657     425.019                               
+dynamic_all3   304.840     304.947     0.517     304.278     305.295     faster 120.02 s (28.25%)  
+
+-- DLB phase timers (max-rank cumulative s; phases overlap, do not sum) --
+mode     plan        pack        forward     remote      backward    unpack      
+all      2.557       18.901      35.641      99.308      74.677      0.005       
+dynamic_all2.560       18.898      33.555      99.307      75.146      0.005       
+
+-- traffic --
+mode     fwd GiB    bwd GiB    fwd msgs   mean msg B   eff MB/s   
+all      0.5266     0.4764     19144      29535.0      15.864     
+dynamic_all0.5266     0.4764     19144      29535.0      16.851     
+
+-- planner / scheduler counters --
+mode     replans   skipped   active    tasks       gate_rej    budget   buckets   bypass  
+all      142       30        2234      168385      149492064   0        142       142     
+dynamic_all142       30        2234      168385      149492064   0        142       142     
+
+-- switch configuration reported by the binary --
+all      schedule=overlap task_order=nchem reaction_sched=sorted cost_gate=on min_task_weight=10 max_tasks=0 probe=off
+dynamic_allschedule=overlap task_order=nchem reaction_sched=dynamic cost_gate=on min_task_weight=10 max_tasks=0 probe=off
+
+-- output comparison --
+all_modes_byte_identical=yes
+
+Reminder: quote clean (probe-off) runs for performance and keep the
+instrumented runs for mechanism.  Phase timers are per-rank maxima and
+overlap, so they must not be added into a wall-clock budget.

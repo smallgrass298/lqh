@@ -1,0 +1,22 @@
+# 281x141x32, 100-step smoke/correctness run, 8 GPUs / 8 MPI ranks.
+# Same numerical model, mechanism, scheme and dt as the frozen Stage 2 controls.
+# Only Final-Time is shortened so the ablation matrix can be validated cheaply
+# before a full 2834-step 8-GPU job is queued.
+# DLB_step/DLB_tol are the Stage-2 tuned values (20 / 0.01), not the original 5 / 0.001.
+gridname       ./input/grid-3dRSBI-nk32.txt
+initialization ./input/input-3dRSBI.txt
+reaction-model ./input/H2_JA919.txt
+Thermofile     ./input/thermo.dat
+Final-Time     3e-6
+cfl            0.0
+dt             3e-8
+count          1
+difference     MUSCL_2
+time-adv       EE
+reaction       Trapezoid-Adaptive
+m_block_x      4
+m_block_y      2
+m_block_z      1
+num_thread     1
+DLB_step       20
+DLB_tol        0.01

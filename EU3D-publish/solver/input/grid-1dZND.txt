@@ -1,0 +1,20 @@
+#total_ni
+total_ni    1251
+
+#x start point
+xa         	0.0
+
+#x end point
+xb	        0.5
+
+#total_nj
+total_nj    2
+
+#y start point
+ya         	0.0
+
+#y end point
+yb         	0.03
+
+#Boundary grid
+bc	        2

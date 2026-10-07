@@ -1,0 +1,4 @@
+repeat	mode	steps	loop_s	source
+1	dynamic_all	2834	536.316	time_record/raw/4023063.pbs-7_2gpu_suite_full/gpu_dynamic_all_rep1.log
+2	dynamic_all	2834	536.343	time_record/raw/4023063.pbs-7_2gpu_suite_full/gpu_dynamic_all_rep2.log
+3	dynamic_all	2834	536.624	time_record/raw/4023063.pbs-7_2gpu_suite_full/gpu_dynamic_all_rep3.log

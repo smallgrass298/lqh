@@ -1,0 +1,14 @@
+#Pre-shock Pressure (Pa)
+P_pre       101325.0
+
+#Pre-shock Temperature (K)
+T_pre		1000.0
+
+#Initial Mach number of moving shock
+M_wave          3.0
+
+#Number of species
+NS		    9
+
+#Number of reactions
+NR		    19

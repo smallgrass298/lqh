@@ -1,0 +1,17 @@
+#Pressure (Pa)
+P         	40000.0
+
+#Temperature (K)
+T		    293.0
+
+#Mach number
+Mach		7.5
+
+#Wedge angle (deg)
+angle		25.0
+
+#Number of species
+NS		    9
+
+#Number of reactions
+NR		    19

@@ -1,0 +1,3 @@
+job,gpus,mode,complete,n,mean_s,median_s,stdev_s,min_s,max_s,baseline,paired_n,time_reduction_pct,speedup,paired_wins,paired_losses
+4023065.pbs-7_8gpu_suite_full,8,all,True,3,424.862,424.91,0.18571214284479542,424.657,425.019,all,3,0.0,1.0,0,0
+4023065.pbs-7_8gpu_suite_full,8,dynamic_all,True,3,304.84000000000003,304.947,0.5168742593706871,304.278,305.295,all,3,28.249643413626067,1.393721296417793,3,0

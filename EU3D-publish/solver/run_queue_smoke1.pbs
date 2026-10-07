@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=1:mpiprocs=1:mem=8gb:ngpus=1:gpu_type=L40S
+#PBS -l walltime=00:30:00
+#PBS -N eu3d_queue_smoke1
+#PBS -j oe
+export EU3D_GPUS=1 EU3D_RANKS=1 EU3D_STEPS=100 EU3D_REPEATS=1
+export EU3D_CTRL_FILE=ctrl-onetoone-nk32-100-r1.txt
+export EU3D_MODES="ref sorted dynamic sorted_force dynamic_force"
+export EU3D_TAG=queue_smoke1
+export EU3D_PROBE=0
+export EU3D_QUEUE_SANITIZE=1
+bash "$PBS_O_WORKDIR/run_intragpu_common.sh"

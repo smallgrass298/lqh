@@ -1,0 +1,21 @@
+job=4023065.pbs-7
+grid=281x141x32
+steps=2834
+mpi_ranks=8
+physical_gpus=8
+mapping=one_gpu_per_rank
+ctrl=./input/ctrl-diagnostic-nk32-full-r8.txt
+modes=all dynamic_all
+repeats=3
+probe=0
+host=cx3-20-4
+visible_gpus=8
+index, name, memory.total [MiB]
+0, NVIDIA L40S, 46068 MiB
+1, NVIDIA L40S, 46068 MiB
+2, NVIDIA L40S, 46068 MiB
+3, NVIDIA L40S, 46068 MiB
+4, NVIDIA L40S, 46068 MiB
+5, NVIDIA L40S, 46068 MiB
+6, NVIDIA L40S, 46068 MiB
+7, NVIDIA L40S, 46068 MiB

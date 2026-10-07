@@ -1,0 +1,20 @@
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/FileReader.cpp -o obj/FileReader.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Euler_GPU.cpp -o obj/Euler_GPU.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Mesh.cpp -o obj/Mesh.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Euler.cpp -o obj/Euler.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Global.cpp -o obj/Global.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Flowfield.cpp -o obj/Flowfield.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/LoadBalance.cpp -o obj/LoadBalance.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/TimeAdv.cpp -o obj/TimeAdv.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Main.cpp -o obj/Main.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Reaction.cpp -o obj/Reaction.o
+mpicxx -std=c++17 -O3  -I./include -DUSE_GPU -c cpu_src/Function.cpp -o obj/Function.o
+nvcc -O3 -std=c++14 -arch=sm_89  -I./include -I./src --expt-relaxed-constexpr -ccbin mpicxx -c src/gpu_solver.cu -o obj/gpu_solver.o
+nvcc -O3 -std=c++14 -arch=sm_89  -I./include -I./src --expt-relaxed-constexpr -ccbin mpicxx -c src/boundary.cu -o obj/boundary.o
+nvcc -O3 -std=c++14 -arch=sm_89  -I./include -I./src --expt-relaxed-constexpr -ccbin mpicxx -c src/advection.cu -o obj/advection.o
+nvcc -O3 -std=c++14 -arch=sm_89  -I./include -I./src --expt-relaxed-constexpr -ccbin mpicxx -c src/reaction.cu -o obj/reaction.o
+nvcc -O3 -std=c++14 -arch=sm_89  -I./include -I./src --expt-relaxed-constexpr -ccbin mpicxx -c src/comm.cu -o obj/comm.o
+nvcc -arch=sm_89 -ccbin mpicxx obj/FileReader.o obj/Euler_GPU.o obj/Mesh.o obj/Euler.o obj/Global.o obj/Flowfield.o obj/LoadBalance.o obj/TimeAdv.o obj/Main.o obj/Reaction.o obj/Function.o obj/gpu_solver.o obj/boundary.o obj/advection.o obj/reaction.o obj/comm.o -o EU3D_GPU
+Build OK: EU3D_GPU
+mpicxx -std=c++17 -O2 -I./src src/test_dlb_schedule.cpp -o test_dlb_schedule
+nvcc -O3 -std=c++14 -arch=sm_89 --fmad=false --prec-div=true --prec-sqrt=true -I./include -I./src --expt-relaxed-constexpr -ccbin mpicxx src/test_warp_queue.cu -o test_warp_queue

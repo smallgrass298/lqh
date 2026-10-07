@@ -1,0 +1,1 @@
+PASS: every repeat has complete finite outputs byte-identical to sorted rep1

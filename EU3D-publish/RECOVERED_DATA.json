@@ -1,0 +1,787 @@
+{
+  "source_directory": "EU3D-recovered.njibya",
+  "verified_files": [
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_sorted_rep1/SeriesTrapezoid-Adaptive0_0.dat",
+      "bytes": 191096162,
+      "sha256": "93e911fb934a6fb8d68ac9f077bc5540de6860f905bb5b762891e98467c6775b"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_sorted_rep1/SeriesTrapezoid-Adaptive1_0.dat",
+      "bytes": 466980042,
+      "sha256": "bc681010bab1aa7456216fbd96baf245b7047cc07a4642344d59875793f764da"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep1/SeriesTrapezoid-Adaptive0_0.dat",
+      "bytes": 191096162,
+      "sha256": "93e911fb934a6fb8d68ac9f077bc5540de6860f905bb5b762891e98467c6775b"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep1/SeriesTrapezoid-Adaptive1_0.dat",
+      "bytes": 466980042,
+      "sha256": "bc681010bab1aa7456216fbd96baf245b7047cc07a4642344d59875793f764da"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep2/SeriesTrapezoid-Adaptive0_0.dat",
+      "bytes": 191096162,
+      "sha256": "93e911fb934a6fb8d68ac9f077bc5540de6860f905bb5b762891e98467c6775b"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep2/SeriesTrapezoid-Adaptive1_0.dat",
+      "bytes": 466980042,
+      "sha256": "bc681010bab1aa7456216fbd96baf245b7047cc07a4642344d59875793f764da"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep3/SeriesTrapezoid-Adaptive0_0.dat",
+      "bytes": 191096162,
+      "sha256": "93e911fb934a6fb8d68ac9f077bc5540de6860f905bb5b762891e98467c6775b"
+    },
+    {
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep3/SeriesTrapezoid-Adaptive1_0.dat",
+      "bytes": 466980042,
+      "sha256": "bc681010bab1aa7456216fbd96baf245b7047cc07a4642344d59875793f764da"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "bytes": 99017882,
+      "sha256": "a7df62e241ee2d79176ccb05a5bb2658cbc138c7ff1774eb42e4279b210e5284"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "bytes": 94748474,
+      "sha256": "f98576b8c8e678026b4fe647e12c73f542f5915dfbfe845b3fce6905d8ce718e"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "bytes": 225433734,
+      "sha256": "23a7780a2d50cfcc799a73784d679c5dbe01a0d8c22174bced83573e69bc08e0"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "bytes": 249937978,
+      "sha256": "4fc96be3e67e7a4f2e6af9d9c4fe90c73705a1d988c97c2d7ae0bc0f7c9c6765"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "bytes": 99017882,
+      "sha256": "a7df62e241ee2d79176ccb05a5bb2658cbc138c7ff1774eb42e4279b210e5284"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "bytes": 94748474,
+      "sha256": "f98576b8c8e678026b4fe647e12c73f542f5915dfbfe845b3fce6905d8ce718e"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "bytes": 225433734,
+      "sha256": "23a7780a2d50cfcc799a73784d679c5dbe01a0d8c22174bced83573e69bc08e0"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "bytes": 249937978,
+      "sha256": "4fc96be3e67e7a4f2e6af9d9c4fe90c73705a1d988c97c2d7ae0bc0f7c9c6765"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_0.dat",
+      "bytes": 99017882,
+      "sha256": "a7df62e241ee2d79176ccb05a5bb2658cbc138c7ff1774eb42e4279b210e5284"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_1.dat",
+      "bytes": 94748474,
+      "sha256": "f98576b8c8e678026b4fe647e12c73f542f5915dfbfe845b3fce6905d8ce718e"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_0.dat",
+      "bytes": 225433734,
+      "sha256": "23a7780a2d50cfcc799a73784d679c5dbe01a0d8c22174bced83573e69bc08e0"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_1.dat",
+      "bytes": 249937978,
+      "sha256": "4fc96be3e67e7a4f2e6af9d9c4fe90c73705a1d988c97c2d7ae0bc0f7c9c6765"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_0.dat",
+      "bytes": 99017882,
+      "sha256": "a7df62e241ee2d79176ccb05a5bb2658cbc138c7ff1774eb42e4279b210e5284"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_1.dat",
+      "bytes": 94748474,
+      "sha256": "f98576b8c8e678026b4fe647e12c73f542f5915dfbfe845b3fce6905d8ce718e"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_0.dat",
+      "bytes": 225433734,
+      "sha256": "23a7780a2d50cfcc799a73784d679c5dbe01a0d8c22174bced83573e69bc08e0"
+    },
+    {
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_1.dat",
+      "bytes": 249937978,
+      "sha256": "4fc96be3e67e7a4f2e6af9d9c4fe90c73705a1d988c97c2d7ae0bc0f7c9c6765"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "bytes": 50448941,
+      "sha256": "0c34d11d56b82238af65bbb68cfef2a968169cade0257310cbe8ec28bc77a5cb"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "bytes": 48540493,
+      "sha256": "cdf83babed862ddad06f1a08a8a2ed67e203b4e6fd564a9541388af8b866c14c"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_2.dat",
+      "bytes": 51390689,
+      "sha256": "862dd4fe106919feb13df7d8bda74842935c89dea253c3014bb5e60396162da9"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_3.dat",
+      "bytes": 48858913,
+      "sha256": "351f21daf9d49fd1f589fdce65b5625f688e71ff5d39c76d321084ed38d39ee1"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "bytes": 121954873,
+      "sha256": "fcd31da9120d19c91522a136a159593774082c1af445be4e337dc8a314ada3cc"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "bytes": 128158705,
+      "sha256": "a3cdae12a3be77b1507f2b58e40ad02895e82e826e333933490a3f4467fc2890"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_2.dat",
+      "bytes": 111148229,
+      "sha256": "f0dc79b132cf9974d77cb5d978ca401fb8c15e28204ad7e16cc8b344117bd398"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_3.dat",
+      "bytes": 130104009,
+      "sha256": "b2231cbf70caef3fd0580a5e624663a45d11fd6d8e87743db09d882f77e6ca97"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "bytes": 50448941,
+      "sha256": "0c34d11d56b82238af65bbb68cfef2a968169cade0257310cbe8ec28bc77a5cb"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "bytes": 48540493,
+      "sha256": "cdf83babed862ddad06f1a08a8a2ed67e203b4e6fd564a9541388af8b866c14c"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_2.dat",
+      "bytes": 51390689,
+      "sha256": "862dd4fe106919feb13df7d8bda74842935c89dea253c3014bb5e60396162da9"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_3.dat",
+      "bytes": 48858913,
+      "sha256": "351f21daf9d49fd1f589fdce65b5625f688e71ff5d39c76d321084ed38d39ee1"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "bytes": 121954873,
+      "sha256": "fcd31da9120d19c91522a136a159593774082c1af445be4e337dc8a314ada3cc"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "bytes": 128158705,
+      "sha256": "a3cdae12a3be77b1507f2b58e40ad02895e82e826e333933490a3f4467fc2890"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_2.dat",
+      "bytes": 111148229,
+      "sha256": "f0dc79b132cf9974d77cb5d978ca401fb8c15e28204ad7e16cc8b344117bd398"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_3.dat",
+      "bytes": 130104009,
+      "sha256": "b2231cbf70caef3fd0580a5e624663a45d11fd6d8e87743db09d882f77e6ca97"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_0.dat",
+      "bytes": 50448941,
+      "sha256": "0c34d11d56b82238af65bbb68cfef2a968169cade0257310cbe8ec28bc77a5cb"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_1.dat",
+      "bytes": 48540493,
+      "sha256": "cdf83babed862ddad06f1a08a8a2ed67e203b4e6fd564a9541388af8b866c14c"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_2.dat",
+      "bytes": 51390689,
+      "sha256": "862dd4fe106919feb13df7d8bda74842935c89dea253c3014bb5e60396162da9"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_3.dat",
+      "bytes": 48858913,
+      "sha256": "351f21daf9d49fd1f589fdce65b5625f688e71ff5d39c76d321084ed38d39ee1"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_0.dat",
+      "bytes": 121954873,
+      "sha256": "fcd31da9120d19c91522a136a159593774082c1af445be4e337dc8a314ada3cc"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_1.dat",
+      "bytes": 128158705,
+      "sha256": "a3cdae12a3be77b1507f2b58e40ad02895e82e826e333933490a3f4467fc2890"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_2.dat",
+      "bytes": 111148229,
+      "sha256": "f0dc79b132cf9974d77cb5d978ca401fb8c15e28204ad7e16cc8b344117bd398"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_3.dat",
+      "bytes": 130104009,
+      "sha256": "b2231cbf70caef3fd0580a5e624663a45d11fd6d8e87743db09d882f77e6ca97"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_0.dat",
+      "bytes": 50448941,
+      "sha256": "0c34d11d56b82238af65bbb68cfef2a968169cade0257310cbe8ec28bc77a5cb"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_1.dat",
+      "bytes": 48540493,
+      "sha256": "cdf83babed862ddad06f1a08a8a2ed67e203b4e6fd564a9541388af8b866c14c"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_2.dat",
+      "bytes": 51390689,
+      "sha256": "862dd4fe106919feb13df7d8bda74842935c89dea253c3014bb5e60396162da9"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_3.dat",
+      "bytes": 48858913,
+      "sha256": "351f21daf9d49fd1f589fdce65b5625f688e71ff5d39c76d321084ed38d39ee1"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_0.dat",
+      "bytes": 121954873,
+      "sha256": "fcd31da9120d19c91522a136a159593774082c1af445be4e337dc8a314ada3cc"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_1.dat",
+      "bytes": 128158705,
+      "sha256": "a3cdae12a3be77b1507f2b58e40ad02895e82e826e333933490a3f4467fc2890"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_2.dat",
+      "bytes": 111148229,
+      "sha256": "f0dc79b132cf9974d77cb5d978ca401fb8c15e28204ad7e16cc8b344117bd398"
+    },
+    {
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_3.dat",
+      "bytes": 130104009,
+      "sha256": "b2231cbf70caef3fd0580a5e624663a45d11fd6d8e87743db09d882f77e6ca97"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "bytes": 26836296,
+      "sha256": "8e8f36954461df5c44b0f7ce6ce8e294d1a7b866c6fd1b195ed3fc1790124835"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "bytes": 24970488,
+      "sha256": "a22888ebba9764053f35bb6b027e4720213bef0ed1b712b893a6e5e3d8207e11"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_2.dat",
+      "bytes": 24959772,
+      "sha256": "6cb320db9cd31efea1f3af1a265672d8b8c12138cd6a82c04b705be677a38a68"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_3.dat",
+      "bytes": 24903072,
+      "sha256": "48791fb551bf76df7c916d155881f81d2ab792db20934542c2fccbe6ce6b37f2"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_4.dat",
+      "bytes": 27442948,
+      "sha256": "8008eedd7dca0dcebf311d866f9d015d5a0236fb047eefd834712ab2db034b7e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_5.dat",
+      "bytes": 25332372,
+      "sha256": "8cd9410bef4a63421cd9caa8e205b09f071eaf8c2e330e0d98b8f1b04135a135"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_6.dat",
+      "bytes": 25124472,
+      "sha256": "4124f0a8c3c3d29123eafe9f5a4883e39ebc79dda49bea579de192f59d5cb657"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive0_7.dat",
+      "bytes": 25067772,
+      "sha256": "26d609b7bf689b6f993d41b0eabbbf0be53bf77c54e54674507a2d9fe47c162e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "bytes": 59442076,
+      "sha256": "3ea9a1ac1e9fe6181d6b12f67c05095f8d05a7f21a28ecd5f6da292402a95e1a"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "bytes": 66854036,
+      "sha256": "e9421ca829d11261647f3f7b3adf85d040eed971b09282d30e8978e1828444be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_2.dat",
+      "bytes": 66491880,
+      "sha256": "12d3e0c8bb984fca139497a9c172126c522c1e473e3eae5353f10bdd44506834"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_3.dat",
+      "bytes": 65892700,
+      "sha256": "6ad918a18ff0b8a823bdefe756b8f752d9093840d35eb2dc53d5379bc8a40410"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_4.dat",
+      "bytes": 49071484,
+      "sha256": "26b313db5ea98625767207506b7a8fbddf8c797e10c8c5f1862e430f3677f7e7"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_5.dat",
+      "bytes": 65895268,
+      "sha256": "e7943e1eceb45d4310ef58f65d1b86234d6f19a3bb9b7ee3862f1b796f9d9e80"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_6.dat",
+      "bytes": 67349036,
+      "sha256": "68cb62fab0d72407a14c4da03e3e09cb3903b94d4e4b57349502a2def7b4b4be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_all_rep1/Trapezoid-Adaptive1_7.dat",
+      "bytes": 67057244,
+      "sha256": "2feb75cf71f80b548facffd3bc88304dad86f7bab58e5b0ae707c2f9bacec490"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "bytes": 26836296,
+      "sha256": "8e8f36954461df5c44b0f7ce6ce8e294d1a7b866c6fd1b195ed3fc1790124835"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "bytes": 24970488,
+      "sha256": "a22888ebba9764053f35bb6b027e4720213bef0ed1b712b893a6e5e3d8207e11"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_2.dat",
+      "bytes": 24959772,
+      "sha256": "6cb320db9cd31efea1f3af1a265672d8b8c12138cd6a82c04b705be677a38a68"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_3.dat",
+      "bytes": 24903072,
+      "sha256": "48791fb551bf76df7c916d155881f81d2ab792db20934542c2fccbe6ce6b37f2"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_4.dat",
+      "bytes": 27442948,
+      "sha256": "8008eedd7dca0dcebf311d866f9d015d5a0236fb047eefd834712ab2db034b7e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_5.dat",
+      "bytes": 25332372,
+      "sha256": "8cd9410bef4a63421cd9caa8e205b09f071eaf8c2e330e0d98b8f1b04135a135"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_6.dat",
+      "bytes": 25124472,
+      "sha256": "4124f0a8c3c3d29123eafe9f5a4883e39ebc79dda49bea579de192f59d5cb657"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_7.dat",
+      "bytes": 25067772,
+      "sha256": "26d609b7bf689b6f993d41b0eabbbf0be53bf77c54e54674507a2d9fe47c162e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "bytes": 59442076,
+      "sha256": "3ea9a1ac1e9fe6181d6b12f67c05095f8d05a7f21a28ecd5f6da292402a95e1a"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "bytes": 66854036,
+      "sha256": "e9421ca829d11261647f3f7b3adf85d040eed971b09282d30e8978e1828444be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_2.dat",
+      "bytes": 66491880,
+      "sha256": "12d3e0c8bb984fca139497a9c172126c522c1e473e3eae5353f10bdd44506834"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_3.dat",
+      "bytes": 65892700,
+      "sha256": "6ad918a18ff0b8a823bdefe756b8f752d9093840d35eb2dc53d5379bc8a40410"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_4.dat",
+      "bytes": 49071484,
+      "sha256": "26b313db5ea98625767207506b7a8fbddf8c797e10c8c5f1862e430f3677f7e7"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_5.dat",
+      "bytes": 65895268,
+      "sha256": "e7943e1eceb45d4310ef58f65d1b86234d6f19a3bb9b7ee3862f1b796f9d9e80"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_6.dat",
+      "bytes": 67349036,
+      "sha256": "68cb62fab0d72407a14c4da03e3e09cb3903b94d4e4b57349502a2def7b4b4be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_7.dat",
+      "bytes": 67057244,
+      "sha256": "2feb75cf71f80b548facffd3bc88304dad86f7bab58e5b0ae707c2f9bacec490"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_0.dat",
+      "bytes": 26836296,
+      "sha256": "8e8f36954461df5c44b0f7ce6ce8e294d1a7b866c6fd1b195ed3fc1790124835"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_1.dat",
+      "bytes": 24970488,
+      "sha256": "a22888ebba9764053f35bb6b027e4720213bef0ed1b712b893a6e5e3d8207e11"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_2.dat",
+      "bytes": 24959772,
+      "sha256": "6cb320db9cd31efea1f3af1a265672d8b8c12138cd6a82c04b705be677a38a68"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_3.dat",
+      "bytes": 24903072,
+      "sha256": "48791fb551bf76df7c916d155881f81d2ab792db20934542c2fccbe6ce6b37f2"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_4.dat",
+      "bytes": 27442948,
+      "sha256": "8008eedd7dca0dcebf311d866f9d015d5a0236fb047eefd834712ab2db034b7e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_5.dat",
+      "bytes": 25332372,
+      "sha256": "8cd9410bef4a63421cd9caa8e205b09f071eaf8c2e330e0d98b8f1b04135a135"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_6.dat",
+      "bytes": 25124472,
+      "sha256": "4124f0a8c3c3d29123eafe9f5a4883e39ebc79dda49bea579de192f59d5cb657"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive0_7.dat",
+      "bytes": 25067772,
+      "sha256": "26d609b7bf689b6f993d41b0eabbbf0be53bf77c54e54674507a2d9fe47c162e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_0.dat",
+      "bytes": 59442076,
+      "sha256": "3ea9a1ac1e9fe6181d6b12f67c05095f8d05a7f21a28ecd5f6da292402a95e1a"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_1.dat",
+      "bytes": 66854036,
+      "sha256": "e9421ca829d11261647f3f7b3adf85d040eed971b09282d30e8978e1828444be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_2.dat",
+      "bytes": 66491880,
+      "sha256": "12d3e0c8bb984fca139497a9c172126c522c1e473e3eae5353f10bdd44506834"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_3.dat",
+      "bytes": 65892700,
+      "sha256": "6ad918a18ff0b8a823bdefe756b8f752d9093840d35eb2dc53d5379bc8a40410"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_4.dat",
+      "bytes": 49071484,
+      "sha256": "26b313db5ea98625767207506b7a8fbddf8c797e10c8c5f1862e430f3677f7e7"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_5.dat",
+      "bytes": 65895268,
+      "sha256": "e7943e1eceb45d4310ef58f65d1b86234d6f19a3bb9b7ee3862f1b796f9d9e80"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_6.dat",
+      "bytes": 67349036,
+      "sha256": "68cb62fab0d72407a14c4da03e3e09cb3903b94d4e4b57349502a2def7b4b4be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep2/Trapezoid-Adaptive1_7.dat",
+      "bytes": 67057244,
+      "sha256": "2feb75cf71f80b548facffd3bc88304dad86f7bab58e5b0ae707c2f9bacec490"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_0.dat",
+      "bytes": 26836296,
+      "sha256": "8e8f36954461df5c44b0f7ce6ce8e294d1a7b866c6fd1b195ed3fc1790124835"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_1.dat",
+      "bytes": 24970488,
+      "sha256": "a22888ebba9764053f35bb6b027e4720213bef0ed1b712b893a6e5e3d8207e11"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_2.dat",
+      "bytes": 24959772,
+      "sha256": "6cb320db9cd31efea1f3af1a265672d8b8c12138cd6a82c04b705be677a38a68"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_3.dat",
+      "bytes": 24903072,
+      "sha256": "48791fb551bf76df7c916d155881f81d2ab792db20934542c2fccbe6ce6b37f2"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_4.dat",
+      "bytes": 27442948,
+      "sha256": "8008eedd7dca0dcebf311d866f9d015d5a0236fb047eefd834712ab2db034b7e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_5.dat",
+      "bytes": 25332372,
+      "sha256": "8cd9410bef4a63421cd9caa8e205b09f071eaf8c2e330e0d98b8f1b04135a135"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_6.dat",
+      "bytes": 25124472,
+      "sha256": "4124f0a8c3c3d29123eafe9f5a4883e39ebc79dda49bea579de192f59d5cb657"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive0_7.dat",
+      "bytes": 25067772,
+      "sha256": "26d609b7bf689b6f993d41b0eabbbf0be53bf77c54e54674507a2d9fe47c162e"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_0.dat",
+      "bytes": 59442076,
+      "sha256": "3ea9a1ac1e9fe6181d6b12f67c05095f8d05a7f21a28ecd5f6da292402a95e1a"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_1.dat",
+      "bytes": 66854036,
+      "sha256": "e9421ca829d11261647f3f7b3adf85d040eed971b09282d30e8978e1828444be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_2.dat",
+      "bytes": 66491880,
+      "sha256": "12d3e0c8bb984fca139497a9c172126c522c1e473e3eae5353f10bdd44506834"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_3.dat",
+      "bytes": 65892700,
+      "sha256": "6ad918a18ff0b8a823bdefe756b8f752d9093840d35eb2dc53d5379bc8a40410"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_4.dat",
+      "bytes": 49071484,
+      "sha256": "26b313db5ea98625767207506b7a8fbddf8c797e10c8c5f1862e430f3677f7e7"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_5.dat",
+      "bytes": 65895268,
+      "sha256": "e7943e1eceb45d4310ef58f65d1b86234d6f19a3bb9b7ee3862f1b796f9d9e80"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_6.dat",
+      "bytes": 67349036,
+      "sha256": "68cb62fab0d72407a14c4da03e3e09cb3903b94d4e4b57349502a2def7b4b4be"
+    },
+    {
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep3/Trapezoid-Adaptive1_7.dat",
+      "bytes": 67057244,
+      "sha256": "2feb75cf71f80b548facffd3bc88304dad86f7bab58e5b0ae707c2f9bacec490"
+    }
+  ],
+  "published_files": [
+    {
+      "path": "output_1/results/SeriesTrapezoid-Adaptive0_0.dat",
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep1/SeriesTrapezoid-Adaptive0_0.dat",
+      "sha256": "93e911fb934a6fb8d68ac9f077bc5540de6860f905bb5b762891e98467c6775b",
+      "bytes": 191096162
+    },
+    {
+      "path": "output_1/results/SeriesTrapezoid-Adaptive1_0.dat",
+      "source": "intragpu_results/4023062.pbs-7_1gpu_suite_full/results_dynamic_rep1/SeriesTrapezoid-Adaptive1_0.dat",
+      "sha256": "bc681010bab1aa7456216fbd96baf245b7047cc07a4642344d59875793f764da",
+      "bytes": 466980042
+    },
+    {
+      "path": "output_2/results/Trapezoid-Adaptive0_0.dat",
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "sha256": "a7df62e241ee2d79176ccb05a5bb2658cbc138c7ff1774eb42e4279b210e5284",
+      "bytes": 99017882
+    },
+    {
+      "path": "output_2/results/Trapezoid-Adaptive0_1.dat",
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "sha256": "f98576b8c8e678026b4fe647e12c73f542f5915dfbfe845b3fce6905d8ce718e",
+      "bytes": 94748474
+    },
+    {
+      "path": "output_2/results/Trapezoid-Adaptive1_0.dat",
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "sha256": "23a7780a2d50cfcc799a73784d679c5dbe01a0d8c22174bced83573e69bc08e0",
+      "bytes": 225433734
+    },
+    {
+      "path": "output_2/results/Trapezoid-Adaptive1_1.dat",
+      "source": "intragpu_results/4023063.pbs-7_2gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "sha256": "4fc96be3e67e7a4f2e6af9d9c4fe90c73705a1d988c97c2d7ae0bc0f7c9c6765",
+      "bytes": 249937978
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive0_0.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "sha256": "0c34d11d56b82238af65bbb68cfef2a968169cade0257310cbe8ec28bc77a5cb",
+      "bytes": 50448941
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive0_1.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "sha256": "cdf83babed862ddad06f1a08a8a2ed67e203b4e6fd564a9541388af8b866c14c",
+      "bytes": 48540493
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive0_2.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_2.dat",
+      "sha256": "862dd4fe106919feb13df7d8bda74842935c89dea253c3014bb5e60396162da9",
+      "bytes": 51390689
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive0_3.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_3.dat",
+      "sha256": "351f21daf9d49fd1f589fdce65b5625f688e71ff5d39c76d321084ed38d39ee1",
+      "bytes": 48858913
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive1_0.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "sha256": "fcd31da9120d19c91522a136a159593774082c1af445be4e337dc8a314ada3cc",
+      "bytes": 121954873
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive1_1.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "sha256": "a3cdae12a3be77b1507f2b58e40ad02895e82e826e333933490a3f4467fc2890",
+      "bytes": 128158705
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive1_2.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_2.dat",
+      "sha256": "f0dc79b132cf9974d77cb5d978ca401fb8c15e28204ad7e16cc8b344117bd398",
+      "bytes": 111148229
+    },
+    {
+      "path": "output_4/results/Trapezoid-Adaptive1_3.dat",
+      "source": "intragpu_results/4023064.pbs-7_4gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_3.dat",
+      "sha256": "b2231cbf70caef3fd0580a5e624663a45d11fd6d8e87743db09d882f77e6ca97",
+      "bytes": 130104009
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_0.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_0.dat",
+      "sha256": "8e8f36954461df5c44b0f7ce6ce8e294d1a7b866c6fd1b195ed3fc1790124835",
+      "bytes": 26836296
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_1.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_1.dat",
+      "sha256": "a22888ebba9764053f35bb6b027e4720213bef0ed1b712b893a6e5e3d8207e11",
+      "bytes": 24970488
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_2.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_2.dat",
+      "sha256": "6cb320db9cd31efea1f3af1a265672d8b8c12138cd6a82c04b705be677a38a68",
+      "bytes": 24959772
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_3.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_3.dat",
+      "sha256": "48791fb551bf76df7c916d155881f81d2ab792db20934542c2fccbe6ce6b37f2",
+      "bytes": 24903072
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_4.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_4.dat",
+      "sha256": "8008eedd7dca0dcebf311d866f9d015d5a0236fb047eefd834712ab2db034b7e",
+      "bytes": 27442948
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_5.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_5.dat",
+      "sha256": "8cd9410bef4a63421cd9caa8e205b09f071eaf8c2e330e0d98b8f1b04135a135",
+      "bytes": 25332372
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_6.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_6.dat",
+      "sha256": "4124f0a8c3c3d29123eafe9f5a4883e39ebc79dda49bea579de192f59d5cb657",
+      "bytes": 25124472
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive0_7.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive0_7.dat",
+      "sha256": "26d609b7bf689b6f993d41b0eabbbf0be53bf77c54e54674507a2d9fe47c162e",
+      "bytes": 25067772
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_0.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_0.dat",
+      "sha256": "3ea9a1ac1e9fe6181d6b12f67c05095f8d05a7f21a28ecd5f6da292402a95e1a",
+      "bytes": 59442076
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_1.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_1.dat",
+      "sha256": "e9421ca829d11261647f3f7b3adf85d040eed971b09282d30e8978e1828444be",
+      "bytes": 66854036
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_2.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_2.dat",
+      "sha256": "12d3e0c8bb984fca139497a9c172126c522c1e473e3eae5353f10bdd44506834",
+      "bytes": 66491880
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_3.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_3.dat",
+      "sha256": "6ad918a18ff0b8a823bdefe756b8f752d9093840d35eb2dc53d5379bc8a40410",
+      "bytes": 65892700
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_4.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_4.dat",
+      "sha256": "26b313db5ea98625767207506b7a8fbddf8c797e10c8c5f1862e430f3677f7e7",
+      "bytes": 49071484
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_5.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_5.dat",
+      "sha256": "e7943e1eceb45d4310ef58f65d1b86234d6f19a3bb9b7ee3862f1b796f9d9e80",
+      "bytes": 65895268
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_6.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_6.dat",
+      "sha256": "68cb62fab0d72407a14c4da03e3e09cb3903b94d4e4b57349502a2def7b4b4be",
+      "bytes": 67349036
+    },
+    {
+      "path": "output_8/results/Trapezoid-Adaptive1_7.dat",
+      "source": "intragpu_results/4023065.pbs-7_8gpu_suite_full/results_dynamic_all_rep1/Trapezoid-Adaptive1_7.dat",
+      "sha256": "2feb75cf71f80b548facffd3bc88304dad86f7bab58e5b0ae707c2f9bacec490",
+      "bytes": 67057244
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Single-GPU test grid requested by the supervisor: 281 x 141 x 32
+total_ni    281
+xa          0.0
+xb          0.17
+total_nj    141
+ya          0.0
+yb          0.08
+total_nk    32
+za          0.0
+zb          0.02
+bc          2

@@ -1,0 +1,17 @@
+job=4023064.pbs-7
+grid=281x141x32
+steps=100
+mpi_ranks=4
+physical_gpus=4
+mapping=one_gpu_per_rank
+ctrl=./input/ctrl-queue-nk32-100-r4.txt
+modes=off all dynamic_all dynamic_force
+repeats=1
+probe=0
+host=cx3-20-6
+visible_gpus=4
+index, name, memory.total [MiB]
+0, NVIDIA L40S, 46068 MiB
+1, NVIDIA L40S, 46068 MiB
+2, NVIDIA L40S, 46068 MiB
+3, NVIDIA L40S, 46068 MiB

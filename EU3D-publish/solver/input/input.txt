@@ -1,0 +1,17 @@
+#Pressure (Pa)
+P         	32500
+
+#Temperature (K)
+T		    742.8
+
+#Velocity
+V3		    2188.2
+
+#Wedge angle (deg)
+angle		19.0
+
+#Number of species
+NS		    9
+
+#Number of reactions
+NR		    19
