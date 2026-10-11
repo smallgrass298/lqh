@@ -54,36 +54,6 @@ def main():
                     ['repeat', 'mode', 'steps', 'loop_s', 'source'])
         shutil.copyfile(ROOT / 'solver/input/grid-3dRSBI-nk32.txt',
                         output / 'grid/input_grid_parameters.txt')
-        (output / 'grid/README.md').write_text(
-            '# 网格\n\ninput_grid_parameters.txt 是本次运行使用的网格输入参数副本。'
-            '运行时生成的 grid_check_<rank>.dat 未包含在本地日志包中。\n')
-        missing = (
-            '# 数值结果\n\n当前动态模式的三次输出检查记录为 check_rep1/2/3.txt。'
-            '它们是当时保存的逐字节比较 PASS 记录，不是数值场。\n\n'
-            f'完整数值场缺失。需要从集群原作业 {job.name} 的 '
-            f'results_{mode}_rep1/2/3 目录取回 .dat，分别放入本目录的 rep1/2/3。'
-            '如果集群副本已不存在，则需要重新运行，不能从日志恢复数值场。\n')
-        recovered = (
-            '# 数值结果\n\n本目录的 .dat 为当前动态模式第一次完整运行的输出，'
-            f'来源：{job.name}/results_{mode}_rep1。文件编号 0/1 表示两次输出，'
-            '末尾编号表示 MPI rank。文件头包含 X/Y/Z 坐标和流场变量。\n\n'
-            'check_rep1/2/3.txt 为原作业的检查记录。恢复后已验证三次动态结果与'
-            '同规模静态参考 SHA-256 一致，并检查 NaN/Inf。详见根目录 RECOVERED_DATA.json。\n\n'
-            '本地使用硬链接共享恢复目录的数据，不增加一份数据副本。请勿原地编辑这些文件。'
-            '大型 .dat 已由 Git 忽略，需要单独上传数据附件。\n')
-        (output / 'results/README.md').write_text(
-            recovered if list((output / 'results').glob('*.dat')) else missing)
-        (output / 'load/README.md').write_text(
-            '# 负载记录\n\n' + (
-                '单 rank 日志没有 Load Degree 记录，不能将缺失值当作零。\n'
-                if gpu == 1 else
-                'from_log_rep1/2/3.tsv 从动态模式日志提取迭代号、Load Degree 和 NchemMax。'
-                '迭代号取自负载行后的 GPU Iteration 行，与 Euler_GPU.cpp 输出顺序一致。'
-                '这些是日志精度的重建记录，不是原始 LoadDegree.dat。\n'))
-        (output / 'time_record/README.md').write_text(
-            '# 计时记录\n\nloop_times.tsv 是当前动态模式三次完整运行的 GPU loop 耗时。'
-            'source 列指向原始日志。raw/ 保留本规模完整实验和短测的原始日志，'
-            '包括同批静态对照、构建日志和检查记录。未保存的 CPU 风格分阶段计时文件不补造。\n')
         print(f'{output.name}: 3 timings, {len(load)} load samples per last repeat')
 
 

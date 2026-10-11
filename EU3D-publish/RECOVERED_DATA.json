@@ -783,5 +783,8 @@
       "sha256": "2feb75cf71f80b548facffd3bc88304dad86f7bab58e5b0ae707c2f9bacec490",
       "bytes": 67057244
     }
-  ]
+  ],
+  "local_data_status": "deleted_by_user_request",
+  "local_data_deleted_on": "2026-10-07",
+  "github_data_uploaded": false
 }

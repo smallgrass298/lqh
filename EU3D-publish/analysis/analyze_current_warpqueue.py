@@ -83,27 +83,4 @@ axs[0,0].set_ylabel('Dynamic launches');axs[1,0].set_ylabel('Dynamic launches')
 fig.text(.08,.085,'Counts match across all 3 repeats. Zero means the local solver used the regular kernel on every timestep.',fontsize=10)
 fig.text(.08,.05,'The bypass uses the fraction of unmasked cells with Nchem > 1. These counters measure activation, not warp balance.',fontsize=9,color='#555555')
 save(fig,'03_rank_activity')
-lines=['# 动态版日志分析','',*audit,'','## 当前测量结果','']
-for g in (1,2,4,8):
- rs=data[g];lines.append(f'- {g} GPU：loop {st.mean(r["loop"] for r in rs):.3f} s；逐 rank 动态启用次数 {[rs[0]["ranks"][i]["launches"] for i in range(g)]}。')
- if g>1:
-  ph={k:st.mean(r['phases'][k] for r in rs) for k in keys};tr=rs[0]['traffic']
-  lines.append(f'  - 主机阶段计时（各 rank 累计值取最大后，3 次均值）：{ph}。')
-  lines.append(f'  - 正向 {tr["forward_bytes"]/1024**3:.4f} GiB，返回 {tr["backward_bytes"]/1024**3:.4f} GiB；单方向 {tr["forward_messages"]} 条消息。')
-lines+=['','## 能支持的判断','',
-'1. 2/4/8 GPU 三次运行中，动态版与同批分桶版的 DLB 输入/结果字节数及消息数逐项相同。新增动态领取没有增加这些已记录的 MPI 数据量。总 MPI 流量还包括未计入的 halo 和 collectives。',
-'2. 8 GPU 的 rank 0–3 确实执行了动态 kernel，rank 4–7 全程旁路。此前用 MPI_MAX 后的 bypass=142 推断所有 rank 都旁路是不成立的。',
-'3. 动态启用次数的空间差异说明各 rank 触发调度的情况不同，不能直接量化 rank 工作量差或 warp 内不平衡。旁路也不代表没有计算、没有远端任务或 Nchem 全部等于 1。',
-'4. 已有单 GPU 对照支持 GPU 内部执行路径带来了净收益；目前无法将收益分解成求解计算、访存、任务分配或调度开销各自的贡献。',
-'','## 计时边界','',
-'forward/return 是 post+wait 的主机耗时，含等待；remote 包含远端 kernel 提交、本地 launch_local_reaction 调用及远端 stream 同步；pack 包含同步；unpack 主要是异步提交耗时。各阶段可重叠，最大值还可能来自不同 rank，不能求和或用 loop 减去它们算纯计算。',
-'','## 当前缺失的诊断','',
-'- 每 rank 本地/远端反应 kernel 的 GPU 时间，以及同一时间步内的重叠和暴露等待，需要 CUDA event 或时间线追踪。',
-'- 当前实际任务列表中的 Nchem 分布，尤其按动态队列的实际 32 格点任务块计算的迭代离散度。历史 spatial mapping 的 warp waste 不适用于当前队列。',
-'- 每 warp 领取块数、累计工作量、完成时间分布及最后阶段拖尾；领取块数不等本身可能是动态均衡的正常结果。',
-'- 可用 1 - sum(nc)/(active_lanes * max(nc)) 作为块内迭代不均衡代理，尾块 padding 单独计数。该代理不是实测周期、硬件 warp efficiency 或真实反应耗时。',
-'- 远端 kSolveReactionTasks 仍采用列表处理，也需要独立检查接收任务的分组和块内差异。',
-'','本批图只展示动态版；没有重用旧版 Nchem 直方图或虚构 GPU kernel/warp 指标。新诊断应作为独立插桩实验，正式性能继续引用现有 clean runs。',
-'','数值输出文件未包含在日志包中；正确性依据已保存的逐次 PASS 记录，本次未重新比较 .dat。']
-(out/'ANALYSIS.md').write_text('\n'.join(lines)+'\n')
-print('\n'.join(lines[:20]))
+print(f'Saved plots and parsed data to {out}')

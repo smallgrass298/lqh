@@ -11,13 +11,13 @@
       "path": "solver/compare_results.py",
       "source": "EU3D-cuda-dlb-warpqueue/compare_results.py",
       "source_sha256": "7a3762cebd90345e385722a0f306c3694f443ad164c2899703dff177d69d781a",
-      "sha256": "510d4f676d9402faeaeba4352792ff6e1a88c43b611447a5c5ed41e5a6d4055d"
+      "sha256": "33307608b50ce5b0af351cc9c57df680908cf1827a1f74548535fc20f7587889"
     },
     {
       "path": "solver/cpu_src/Euler.cpp",
       "source": "EU3D-cuda-dlb-warpqueue/cpu_src/Euler.cpp",
       "source_sha256": "ee6717f2496b1f97b0521c4729c554b13e50c4e640fe7b8ed19baf368b82e788",
-      "sha256": "592dfcb4e520bd6f625a36b64717582c5418ea7ca89297b7a1bf5a51c81d3864"
+      "sha256": "eff69a0bb96ef09266042c08146a7d5d447b6a467420bbdc29c89531cd39e5a8"
     },
     {
       "path": "solver/cpu_src/Euler_GPU.cpp",
@@ -587,7 +587,7 @@
       "path": "solver/summarize_queue_suite.py",
       "source": "EU3D-cuda-dlb-warpqueue/summarize_queue_suite.py",
       "source_sha256": "59804dbc2f0fa5317820cd5a375bd45bd7f1d43c29655f76d521f812051f9b12",
-      "sha256": "59804dbc2f0fa5317820cd5a375bd45bd7f1d43c29655f76d521f812051f9b12"
+      "sha256": "2bd91bcbb910fa340b9832dbbf4427d589dd74976069d16d240133e9df488440"
     },
     {
       "path": "solver/test_verify_queue_outputs.py",
@@ -1586,12 +1586,6 @@
       "sha256": "b25e333be639284e5dc03fcd918990e5cffecce6f4c01039cac40745e3f10e31"
     },
     {
-      "path": "results/analysis/ANALYSIS.md",
-      "source": "warpqueue_figures/current_analysis/ANALYSIS.md",
-      "source_sha256": "83af707e023be1ccfce46bac4407d1d96e3be087f6ccc46ab0ed8a3dafc81f70",
-      "sha256": "83af707e023be1ccfce46bac4407d1d96e3be087f6ccc46ab0ed8a3dafc81f70"
-    },
-    {
       "path": "results/analysis/parsed_current_logs.json",
       "source": "warpqueue_figures/current_analysis/parsed_current_logs.json",
       "source_sha256": "952ac86fedd0f7d0601c2271793689f60cc313fd7e5c7a4ba9f15934303398bf",
@@ -1601,8 +1595,8 @@
       "path": "analysis/analyze_current_warpqueue.py",
       "source": "analyze_current_warpqueue.py",
       "source_sha256": "e735971129b29eddd6af0db93d4886b81e8f443ef2b44c1833e65cd154654399",
-      "sha256": "5211a5a95c5e93a9c650dd8bcdaa1ca7fb1972f08c15d41fa667acfc6d115d9b"
+      "sha256": "bcc6bb490c4b2908b2df83eed9d0e564e4d62e5713160048bc709e5fa5abbb72"
     }
   ],
-  "updated": "2026-10-04"
+  "updated": "2026-10-11"
 }

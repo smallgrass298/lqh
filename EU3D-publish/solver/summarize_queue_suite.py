@@ -69,11 +69,7 @@ def report(root):
         reduction=c['time_reduction_pct']
         lines.append(f"{c['gpus']:3} {c['mode']:16} {c['n']} {c['mean_s']:9.3f} {c['stdev_s']:8.3f} {str(round(reduction,3))+'%' if reduction!='' else 'N/A':>12}  {c['paired_wins']}/{c['paired_n']}")
     if not dirs: lines.append('No full-suite result directories found yet.')
-    lines += ['', 'INCOMPLETE rows are provisional; use only COMPLETE jobs for conclusions.',
-              'Positive reduction means faster. Baseline: sorted (1 GPU), all (2/4/8 GPU).',
-              'Phase timers are cumulative per-rank maxima and overlap: do not sum them.',
-              'Scheduler counts are per rank; zero dynamic_launches means the path bypassed.',
-              'No hardware occupancy, warp efficiency or SM utilisation was measured.']
+    lines += ['', 'Baseline: sorted (1 GPU), all (2/4/8 GPU). Incomplete jobs are provisional.']
     output='\n'.join(lines)+'\n'; (root/'queue_report.txt').write_text(output); print(output)
 
 if __name__=='__main__': report(Path(sys.argv[1] if len(sys.argv)>1 else 'intragpu_results'))

@@ -204,7 +204,7 @@ void Euler::FileRead()
 		std::filesystem::create_directory(outputFolder + "/time_record/total");
 		std::filesystem::create_directory(outputFolder + "/results");
 
-		std::cout << "目录结构创建成功: " << outputFolder << std::endl;
+		std::cout << "Created output directory: " << outputFolder << std::endl;
 	}
 
 	return;

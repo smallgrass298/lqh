@@ -82,6 +82,12 @@ def main():
     recovered = ROOT / 'RECOVERED_DATA.json'
     if recovered.exists():
         data = json.loads(recovered.read_text())
+        if data.get('local_data_status') == 'deleted_by_user_request':
+            for entry in data['published_files']:
+                require(not (ROOT / entry['path']).exists(),
+                        f"Unexpected local numerical field: {entry['path']}")
+            print('INFO: local numerical fields removed; historical checksums retained')
+            return
         for entry in data['published_files']:
             path = ROOT / entry['path']
             require(path.is_file() and path.stat().st_size == entry['bytes'],
