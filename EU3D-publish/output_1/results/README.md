@@ -1,3 +1,3 @@
-# 数值结果检查记录
+# 结果检查
 
-本地数值场已按用户要求删除，未上传 GitHub。check_rep1/2/3.txt 是原作业检查记录；恢复后的历史哈希见根目录 RECOVERED_DATA.json。需要绘图或重新比较时，须从集群重新下载数值场。
+`check_rep1.txt`、`check_rep2.txt`、`check_rep3.txt` 记录三次运行的输出检查结果。

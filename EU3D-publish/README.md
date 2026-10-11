@@ -41,6 +41,6 @@ bash submit_queue_all.sh
 
 运行时创建 `output_<MPI进程数>/`，其中 `grid/` 存网格，`load/` 存负载，`results/` 存数值场，`time_record/` 存计时。PBS 在临时目录运行，再将日志和结果归档到 `solver/intragpu_results/`。
 
-仓库顶层按相同结构整理实验记录：`grid/` 为网格输入参数，`load/` 为日志提取的负载记录，`results/` 为输出检查记录，`time_record/` 为计时和原始日志。独立的运行时网格检查文件未取回。大型数值场未上传 GitHub，本地副本已删除；历史数据来源与哈希保留在 `RECOVERED_DATA.json`。
+仓库顶层的 `grid/` 保存网格输入参数，`load/` 保存日志提取的负载记录，`results/` 保存输出检查记录，`time_record/` 保存计时和原始日志。
 
 阅读：[方法](docs/METHODS.md) · [结果](docs/RESULTS.md) · [复现](docs/REPRODUCING.md)。
