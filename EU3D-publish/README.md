@@ -43,4 +43,4 @@ bash submit_queue_all.sh
 
 仓库顶层按相同结构整理已取回的数据：`grid/` 为网格输入参数，`load/` 为日志提取的负载记录，`results/` 为当前动态版数值场和检查记录，`time_record/` 为计时和原始日志。独立的运行时网格检查文件未取回，但数值场文件本身包含 X/Y/Z 坐标。数据来源与哈希见 `RECOVERED_DATA.json`。
 
-阅读：[方法](docs/METHODS.md) · [结果](docs/RESULTS.md) · [复现](docs/REPRODUCING.md) · [检查记录](docs/VALIDATION.md)。
+阅读：[方法](docs/METHODS.md) · [结果](docs/RESULTS.md) · [复现](docs/REPRODUCING.md)。
