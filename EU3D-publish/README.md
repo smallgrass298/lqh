@@ -15,7 +15,6 @@ CX3 L40S，281×141×32 网格，2834 步，每个 rank 使用一张 GPU，每�
 
 ![Current dynamic queue performance](results/figures/current_performance.png)
 
-图表只展示当前动态版。同批静态分桶日志用于复核耗时下降。数值场已从集群取回，本地各规模保留动态模式第一次运行的输出；大型数据单独分发，不随普通 Git 提交。
 
 ## 目录
 
