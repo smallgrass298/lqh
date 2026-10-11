@@ -12,7 +12,6 @@ CPU/MPI 求解器迁移到 CUDA 后，先加入跨 rank 反应任务迁移与 CU
 
 worker 数由 kernel occupancy 查询、SM 数和输入规模决定，每次反应前重置队列。负载较均匀时使用普通 kernel；`EU3D_REACTION_SCHED_MIN_HEAVY=0` 可强制测试队列。
 
-队列只改变本地未迁移格点的调度，远端反应和 MPI 迁移协议沿用原实现。
 
 ## 模式
 
@@ -21,7 +20,7 @@ worker 数由 kernel occupancy 查询、SM 数和输入规模决定，每次反�
 | 当前动态队列 | `dynamic` | `dynamic_all` |
 | 同批静态分桶对照 | `sorted` | `all` |
 
-多 GPU 两种模式都启用通信重叠、成本门控和迁移任务排序，仅本地调度不同。开关由 `solver/run_intragpu_common.sh` 设置；其他消融模式保留。
+多 GPU 两种模式都启用通信重叠、成本门控和迁移任务排序。开关由 `solver/run_intragpu_common.sh` 设置；其他消融模式保留。
 
 ## 源码入口
 
@@ -35,4 +34,4 @@ worker 数由 kernel occupancy 查询、SM 数和输入规模决定，每次反�
 | `solver/src/dlb_schedule.hpp` | 跨 rank 计划与成本门控 |
 | `solver/src/test_warp_queue.cu` | 队列边界与 exact-once 测试 |
 
-动态领取允许先完成的 warp 继续处理未分配任务。现有实验测量整体耗时，尚不能分离计算、访存和调度开销的贡献。
+动态领取允许先完成的 warp 继续处理未分配任务。
